@@ -3,7 +3,7 @@ from google_trans_new import google_translator
 import streamlit as st
 import PyPDF2
 import docx
-# import pdftotext
+import pdftotext
 
 def read_pdf(uploaded_file):
     """
